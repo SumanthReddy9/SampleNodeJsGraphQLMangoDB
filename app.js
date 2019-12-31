@@ -23,6 +23,6 @@ app.use('/graphql', graphqlHttp({
 mongoose.connect('mongodb://localhost:27017/EventsDataBase')
 
 app.listen(7000, () => {
-    console.log("Server is listening on port 7000")
+    console.log("Now Server is listening on port 7000")
 });
 
